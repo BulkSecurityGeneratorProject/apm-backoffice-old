@@ -1,0 +1,11 @@
+version: '2'
+services:
+    apmbackoffice-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/apmBackoffice/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=apmBackoffice
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

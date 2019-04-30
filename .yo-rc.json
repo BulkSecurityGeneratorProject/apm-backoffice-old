@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "apmBackoffice",
+    "packageName": "fr.cnp.apm.backoffice",
+    "packageFolder": "fr/cnp/apm/backoffice",
+    "serverPort": 8090,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "NWFhZTk3MzY4OTJhZDFmNjAyMWZlMzU4MDM4MThjY2U1YWEwOTJkZGIzZWE5MjY3ZjIyYWQ3ODczNjFlZTAwODgzODAzM2U1ZDA1ZDk3NmRhYzFkMTZjYzRjYmUxMmMwYWUxOGFhNTZjZDkzMWVmZWIyNmYxYTdkMDhlZDZiZjM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "romainferrante",
+  "repository-name": "apm-backoffice"
+}
