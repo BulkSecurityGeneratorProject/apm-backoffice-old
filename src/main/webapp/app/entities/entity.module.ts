@@ -4,6 +4,14 @@ import { RouterModule } from '@angular/router';
 @NgModule({
     imports: [
         RouterModule.forChild([
+            {
+                path: 'label',
+                loadChildren: './label/label.module#ApmBackofficeLabelModule'
+            },
+            {
+                path: 'label-value',
+                loadChildren: './label-value/label-value.module#ApmBackofficeLabelValueModule'
+            }
             /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
         ])
     ],
